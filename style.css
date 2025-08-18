@@ -115,14 +115,14 @@ a:hover{
   margin: 10px 0 6px;
 }
 
-@media screen and (max-width:600px){/*600px以下の画面幅だったら*/
+@media screen and (max-width:600px){
     .header_inner{
-        flex-direction: column;/*縦並び*/
-        align-items: center; /*中央寄せ*/
+        flex-direction: column;
+        align-items: center; 
     }
 
     .header_inner .logo{
-        margin-top: 10px; /*余白を調整*/
+        margin-top: 10px; 
         margin-bottom: 0px;
     }
 
@@ -208,7 +208,7 @@ a:hover{
      text-align: center;
  }
 
- @media screen and (max-width:600px){/*600px以下の画面幅だったら*/
+ @media screen and (max-width:600px){
     .section-title{
      font-size: 2rem;
     }
@@ -220,7 +220,6 @@ a:hover{
 .news {
     width: 100%;  
     max-width: 1000px; 
-    /* width: 1000px; */
     margin: 0 auto 50px;
     padding-bottom: 10px;
     border-top: 1.5px dashed #000;
@@ -266,22 +265,14 @@ a:hover{
     line-height: 1.4;
 }
 
-/* .news .top-list a:hover{
-    opacity: 1;
-} */
 
-/* ----------------------------
-   タブレット以下（1000px以下）
----------------------------- */
 @media screen and (max-width: 1000px) {
     .news {
         width: 100%;
     }
 }
 
-/* ----------------------------
-   スマホ・タブレット縦並び（768px以下）
----------------------------- */
+
 @media screen and (max-width: 768px) {
     .top-list li a {
         flex-direction: column; 
@@ -307,11 +298,8 @@ a:hover{
 
 .about{
     height: 1300px;
-
     width: 100%;  
     max-width: 1000px; 
-    /* width: 1000px; */
-
     background: url(../img/top/about.jpg) no-repeat top / 1000px;
     border-top: 1.5px dashed #000000;
 }
@@ -319,7 +307,6 @@ a:hover{
 .about_text{
     width: 100%;  
     max-width: 1000px; 
-    /* width: 1000px; */
     margin-top: 80px;
 }
 
@@ -378,9 +365,6 @@ a.btn--radius {
     display: inline-block; 
 }
 
-/* ----------------------------
-   タブレット以下（1000px以下）
----------------------------- */
 @media screen and (max-width: 1000px) {
     .about_text{
         margin-top: 50px;
@@ -390,6 +374,9 @@ a.btn--radius {
     }
     .about_text h3, .about_text h4, .about_text p{
         margin: 30px 60px;
+    }
+    .about_text p {
+        font-size: 1rem;
     }
 }
 
@@ -417,7 +404,7 @@ a.btn--radius {
 }
 
 .articles_article {
-  flex: 1 1 calc((100% - 48px) / 3); /* デスクトップ3列 */
+  flex: 1 1 calc((100% - 48px) / 3); 
   display: flex;
   flex-direction: column;
 }
@@ -425,7 +412,7 @@ a.btn--radius {
 .video-thumbnail {
   position: relative;
   width: 100%;
-  padding-top: 56.25%; /* 16:9比率 */
+  padding-top: 56.25%; 
   cursor: pointer;
 }
 
@@ -463,19 +450,19 @@ a.btn--radius {
 
 @media (max-width: 900px) {
   .articles {
-    display: block; /* flexを解除してブロック表示 */
+    display: block; 
     margin: 0 auto;
   }
 
   .articles_article {
-    width: 400px;   /* 任意の幅に固定 */
-    margin: 0 auto 24px auto; /* 下に余白をつけつつ中央揃え */
-    flex: none;     /* flexの影響を消す */
+    width: 400px;  
+    margin: 0 auto 24px auto; 
+    flex: none;   
   }
 
   .video-thumbnail {
-    width: 100%;    /* 記事幅に合わせる */
-    padding-top: 56.25%; /* 16:9比率 */
+    width: 100%;  
+    padding-top: 56.25%;
   }
 }
 
@@ -485,17 +472,14 @@ a.btn--radius {
 
 .kani_comic{
     border-top: 1.5px dashed #000000;
-
     width: 100%;  
     max-width: 1000px; 
-
-    /* width: 1000px; */
 }
 
 .kani_comic img {
-    width: 450px;      /* サイズ指定 */
-    display: block;    /* 画像をブロック要素にする */
-    margin: 100px auto;    /* 左右中央寄せ */
+    width: 450px;    
+    display: block; 
+    margin: 100px auto;  
 }
 
 /* -----------------
@@ -577,10 +561,8 @@ a.btn--radius {
     color: #555;
 }
 
-/* モバイル対応：小さい画面では少し縮める */
 @media (max-width: 1000px) {
     .publications {
-        /* margin-left: 1.5em; */
         padding: 1em;
     }
 
@@ -594,7 +576,7 @@ a.btn--radius {
 }
 
 /* -----------------
-    reverse_hana_tsuma_dog
+reverse_hana_tsuma_dog
 ----------------- */
 
 .reverse_hana_tsuma_dog{
@@ -621,7 +603,6 @@ a.btn--radius {
     border-top: 1.5px solid #000000;
     border-bottom: 1.5px solid #000000;
     width: 100%;  
-    /* height: 100px; */
     margin-top: 6px;
     text-align: center;
     background:repeating-linear-gradient(
