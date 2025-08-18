@@ -382,6 +382,12 @@ a.btn--radius {
    タブレット以下（1000px以下）
 ---------------------------- */
 @media screen and (max-width: 1000px) {
+    .about_text{
+        margin-top: 50px;
+    }
+    .about_text h2{
+        margin-bottom: 50px;
+    }
     .about_text h3, .about_text h4, .about_text p{
         margin: 30px 60px;
     }
