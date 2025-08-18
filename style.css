@@ -126,6 +126,10 @@ a:hover{
         margin-bottom: 0px;
     }
 
+    .header_inner .logo img{
+        width: 100px;
+}
+
 }
 
 /* -----------------
@@ -173,7 +177,7 @@ a:hover{
         margin-bottom: 150px;
     }
     .bg-image {
-        width: 380px;
+        width: 300px;
         margin: 0px auto 0;
     }
     .small-image {
