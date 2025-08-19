@@ -482,6 +482,14 @@ a.btn--radius {
     margin: 100px auto;  
 }
 
+@media (max-width: 600px) {
+
+.kani_comic img {
+    width: 350px;     
+}
+
+}
+
 /* -----------------
     publications
 ----------------- */
