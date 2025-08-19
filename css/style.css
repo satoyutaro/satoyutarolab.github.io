@@ -603,6 +603,11 @@ reverse_hana_tsuma_dog
     margin-bottom: 50px;  
 }
 
+@media (max-width: 1000px) {
+.reverse_hana_tsuma_dog img{
+    width: 350px;     
+}
+}
 
 /* -----------------
     footer
