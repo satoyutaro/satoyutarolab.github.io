@@ -177,15 +177,15 @@ a:hover{
         margin-bottom: 150px;
     }
     .bg-image {
-        width: 250px;
+        width: 290px;
         margin: 0px auto 0;
     }
     .small-image {
         border: 2px dashed #000000;
         padding: 15px 5px;
-        width: 30px;
+        width: 28px;
         left: 10px;
-        transform: translateY(-80%);
+        transform: translateY(-50%);
     }
     .lab-name {
     font-size: 1.2rem;
