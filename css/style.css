@@ -128,7 +128,7 @@ a:hover{
 
     .header_inner .logo img{
         width: 100px;
-}
+    }
 
 }
 
@@ -190,7 +190,7 @@ a:hover{
     .lab-name {
     font-size: 1.2rem;
     right: 10px; 
-}
+    }
 }
 
 
@@ -455,7 +455,7 @@ a.btn--radius {
   }
 
   .articles_article {
-    width: 400px;  
+    max-width: 350px;  
     margin: 0 auto 24px auto; 
     flex: none;   
   }
@@ -484,9 +484,9 @@ a.btn--radius {
 
 @media (max-width: 600px) {
 
-.kani_comic img {
-    width: 350px;     
-}
+    .kani_comic img {
+        max-width: 350px;     
+    }
 
 }
 
@@ -605,7 +605,7 @@ reverse_hana_tsuma_dog
 
 @media (max-width: 1000px) {
 .reverse_hana_tsuma_dog img{
-    width: 350px;     
+    max-width: 350px;     
 }
 }
 
