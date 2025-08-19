@@ -281,13 +281,13 @@ a:hover{
 
     .top-list img {
         width: 80%;     
-        max-width: 300px;  
+        max-width: 100%;   
         height: auto;
     }
 
     .top-list_info {
         width: 80%;       
-        max-width: 300px;
+        max-width: 100%;   
         text-align: left;  
     }
 }
@@ -455,7 +455,7 @@ a.btn--radius {
   }
 
   .articles_article {
-    max-width: 350px;  
+    max-width: 100%;
     margin: 0 auto 24px auto; 
     flex: none;   
   }
@@ -485,7 +485,7 @@ a.btn--radius {
 @media (max-width: 600px) {
 
     .kani_comic img {
-        max-width: 350px;     
+        max-width: 100%;      
     }
 
 }
@@ -605,7 +605,7 @@ reverse_hana_tsuma_dog
 
 @media (max-width: 1000px) {
 .reverse_hana_tsuma_dog img{
-    max-width: 350px;     
+    max-width: 100%;     
 }
 }
 
