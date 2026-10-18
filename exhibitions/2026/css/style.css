@@ -320,8 +320,17 @@ a{
     /* padding-left: 0; */
 }
 
+.works .content-width {
+    width: calc(100% - 40px);
+    max-width: none;
+}
 
-@media screen and (max-width: 600px) {
+.work-list {
+    padding-left: 0;
+}
+
+
+@media screen and (max-width: 400px) {
     .work-list {
         font-size: 0.85rem;
     }
