@@ -103,7 +103,26 @@ a{
         width: 100px;
     }
 
+    .header_inner .nav {
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 18px;
+        row-gap: 8px;
+    }
+
+    .header_inner .nav li {
+        margin: 0;
+        font-size: 0.9rem;
+    }
+
+    .header_inner .nav a {
+        display: block;
+        white-space: nowrap;
+        padding: 8px 0;
+    }
+
 }
+
 
 /* -----------------
     main-image
@@ -275,12 +294,6 @@ a{
 }
 
 
-@media screen and (max-width: 1000px) {
-    .introduction {
-        width: 100%;
-    }
-}
-
 /* -----------------
     works
 ----------------- */
@@ -304,14 +317,13 @@ a{
     margin-inline: auto;  
     text-align: left;     
     list-style: none;
+    /* padding-left: 0; */
 }
 
-@media screen and (max-width: 1000px) {
-    .works_text{
-        margin-top: 50px;
-    }
-    .works_text h2{
-        margin-bottom: 50px;
+
+@media screen and (max-width: 600px) {
+    .work-list {
+        font-size: 0.85rem;
     }
 }
 
@@ -337,7 +349,6 @@ a{
   .member {
     display: block; 
   }
-
 }
 
 /* -----------------
