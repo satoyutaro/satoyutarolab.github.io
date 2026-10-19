@@ -383,6 +383,45 @@ a{
 }
 
 /* -----------------
+    flyer
+----------------- */
+.flyer {
+    width: calc(100% - 40px); 
+    max-width: 1000px;
+    margin: 0 auto 20px;    
+    border-top: 1.5px dashed #000000;
+}
+
+.flyer-image-front,
+ .flyer-image-back {
+    display: block;
+    width: 1000px;
+    margin: -50px auto 0;
+}
+
+.flyer,
+.flyer-image-front,
+.flyer-image-back {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+
+@media screen and (max-width:700px){
+    /* .main-image {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .bg-image {
+        width: 450px;
+        margin: 0px auto 0;
+    } */
+
+}
+
+/* -----------------
     footer
 ----------------- */
 .footer { 
@@ -406,5 +445,7 @@ a{
     -webkit-text-stroke: 5px #FFF;
     paint-order: stroke;
 }
+
+
 
 
